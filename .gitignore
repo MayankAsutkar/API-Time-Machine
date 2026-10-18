@@ -1,0 +1,21 @@
+# Node dependencies and build output
+api-time-machine/node_modules/
+api-time-machine/dist/
+api-time-machine/.vite/
+
+# Python environments and cache
+api-time-machine/.venv/
+api-time-machine/venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
